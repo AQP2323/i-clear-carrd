@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrd</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    
+    background-color: #e3a6a6;
+    min-width: 700px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main {
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 500px;
+    width: 600px;
+    padding: 50px;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: 5px 5px 5px black;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+table {
+    
+}
+
+th, td {
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#img_td {
+    padding-right: 25px;
+}
+
+#eunbin_img {
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(173, 84, 137);
+}
+
+#header {
+    width: 100px;
+}
+
+#stanlist {
+    width: 300px;
+}
+    </style>
+</head>
+<body>
+
+<div id="main">
+
+    <table>
+
+        <tr>
+            <th colspan="5">~Welcome to Jewel's carrd~</th>
+        </tr>
+
+        <tr>
+            <th rowspan="4" id="img_td">
+                <img id="eunbin_img" src="https://1409791524.rsc.cdn77.org/data/images/full/568864/clc-kwon-eun-bin-innocent-neat-beauty-i-think-its-a-doll.jpg">
+            </th>
+            <th id="header">Ult groups!</th>
+            <td id="stanlist">EL7Z UP, CLC, (G)I-DLE</td>
+        </tr>
+
+        <tr>
+            <th id="header">Ult biases</th>
+            <td id="stanlist">Yeeun, Eunbin, Yuqi</td>
+        </tr>
+
+        <tr>
+            <th id="header">Groups</th>
+            <td id="stanlist">Kep1er, Lightsum, Loona, Blackpink, Purple Kiss</td>
+        </tr>
+
+        <tr>
+            <th id="header">Actresses</th>
+            <td id="stanlist">Kwon Eunbin, Cho Miyeon, Seo Yeaji, Han Sohee, Hailee Steinfeld</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Other social medias</td>
+            <td></td>
+        </tr>
+
+
+    </table>
+
+
+</div>
+    
+</body>
+</html>
